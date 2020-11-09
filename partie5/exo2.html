@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Exo Javascript</title>
 </head>
 
 <body>
-    <!-- <h1> Création d'un formulaire</h1> -->
-    <form onsubmit="verifmotdepasse()">
+
+    <form>
         <label for="Mot de passe"> Entrez votre mot de passe </label>
-        <input id="Mot_de_passe" name="Mot de passe" type="password"/>
+        <input id="Mot_de_passe" name="Mot de passe" type="password" class="passeword" />
         <label for="Confirmation mot de passe"> Confirmez votre mot de passe </label>
-        <input id="Confirmation" name="Confirmation" type="password"/>
-        <button type="submit">envoyer</button>
+        <input id="Confirmation" name="Confirmation" type="password" class="confirmpasseword" />
+        <button type="submitButton">envoyer</button>
     </form>
-    <script type="text/javascript" src="verifmdp.js"></script>
+    <script type="text/javascript" src="verifmdp2.js"></script>
 </body>
 
 </html>
