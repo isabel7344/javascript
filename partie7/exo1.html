@@ -7,12 +7,23 @@
 </head>
 
 <body>
-    <form onsubmit="coco()">
+    <!-- avec le innerhtml -->
+    <form>
+        <label for="firstNumber">Entrez le premier nombre</label>
+        <input type="text" name="firstNumber" id="firstNumber" placeholder="Entrez un premier nombre">
+        <label for="secondNumber">Entrez le deuxième nombre</label>
+        <input type="text" name="secondNumber" id="secondNumber" placeholder="Entrez un deuxième nombre">
+        <button type="submit" id="submitButton">Calculer</button>
+    </form>
+    <div id="container"></div>
+
+    <!-- avec une fonction de nombre compris entre 1 et 10 et tant que >250  -->
+    <!-- <form onsubmit="coco()">
         <input id="firstNumber" type="number" />
         <input id="secondNumber" type="number" />
         <button>calculer j'ai fini!</button>
     </form>
-    <div id="container"></div>
+    <div id="container"></div> -->
 
     <script src="exo1.js">
     </script>

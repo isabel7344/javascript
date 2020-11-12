@@ -1,37 +1,38 @@
 let boldButton = document.getElementById('bold');
 let blueButton = document.getElementById('blue');
-let scrollbutton = document.getElementById('scroll');
+let scrollButton = document.getElementById('scroll');
+let textBold = document.querySelector('div');
 
 boldButton.onclick = function () {
-    boldButton.classList.toggle('boldText');
-    textChange.classList.toggle('boldText');
+    textBold.classList.toggle('bold');
 }
 
 blueButton.onclick = function () {
-    blueButton.classList.toggle('blueBackgroundColor');
-    textChange.classList.toggle('blueTextColor');
+    textBold.classList.toggle('blue');
 }
 
-// scrollButton.onclick = function () {
-   
+scrollButton.onclick = function () {
+    textBold.classList.toggle('scroll');
+}
+
+
+
+// let buttonBold = document.getElementById('buttonBold');
+// let buttonColor = document.getElementById('buttonColor');
+// let buttonSize = document.getElementById('buttonSize');
+// let textBold = document.querySelector('div');
+
+// buttonBold.onclick = function () {
+//     textBold.classList.toggle('textBold');
 // }
-// function coco() {
-//     event.preventDefault();
-//      if (
-//         firstNumber > 0 &&
-//         firstNumber < 11 &&
-//         secondNumber > 0 &&
-//         secondNumber < 11
-//       ) {
-//         container.innerHTML = null
-//         while (total > 1) {
-//           let result = document.createElement("p");
-//           result.innerHTML = total;
-//           container.appendChild(result);
-//          firstNumber = total;
-//           total = firstNumber / secondNumber;
-//         }
-//       } else {
-//         window.alert("les nombres doivent compris entre 1 et 10 ");
-//       }
-//     }
+
+// buttonColor.onclick = function () {
+//     textBold.classList.toggle('redTextColor');
+// }
+
+// buttonSize.onclick = function () {
+//     textBold.classList.toggle('textSize');
+// }
+
+
+

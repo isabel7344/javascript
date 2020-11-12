@@ -1,9 +1,11 @@
-.boldText {
+.textBold {
     font-weight: bold;
 }
-.blueBackgroundColor {
-    background-color: lightblue;
+
+.blue {
+    color: blue;
 }
-.blueTextColor {
-    color: lightblue;
+
+.scroll {
+    font-size: 1.5rem;
 }
