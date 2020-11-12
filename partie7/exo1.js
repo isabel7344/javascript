@@ -5,6 +5,11 @@ function coco() {
   let firstNumber = document.getElementById("firstNumber").value;
   let secondNumber = document.getElementById("secondNumber").value;
   let total = firstNumber * secondNumber;
+  
+  while (total < 250) {
+    let result = document.createElement("p");
+    result.innerHTML = total;
+    container.appendChild(result);
 
   if (
     firstNumber > 0 &&
